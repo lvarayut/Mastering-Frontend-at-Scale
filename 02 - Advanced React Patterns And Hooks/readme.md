@@ -207,6 +207,6 @@ const nextConfig: NextConfig = {
 };
 ```
 
-## Play time
+## Play Time
 
 Add a `console.log` inside the `fetchVideo` function to see how many times it’s called. Compare the results when using `useCallback` versus not using it.
