@@ -1,0 +1,34 @@
+.sidebar {
+  width: 240px;
+  height: calc(100vh - 56px);
+  position: fixed;
+  top: 56px;
+  left: 0;
+  background-color: #ffffff;
+  overflow-y: auto;
+  padding: 12px 0;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  padding: 8px 24px;
+  text-decoration: none;
+  color: #030303;
+  font-size: 14px;
+  gap: 24px;
+  transition: background-color 0.2s;
+}
+
+.menuItem:hover {
+  background-color: #f0f0f0;
+}
+
+.menuItem span {
+  font-weight: 500;
+}
