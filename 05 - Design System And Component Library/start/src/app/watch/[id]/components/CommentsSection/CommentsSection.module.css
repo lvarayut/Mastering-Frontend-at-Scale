@@ -1,0 +1,68 @@
+.container {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #1a1a1a;
+}
+
+.noComments {
+  color: #666;
+  font-style: italic;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.commentsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.comment {
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.commentHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.authorAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.authorInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.authorName {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.commentDate {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.commentText {
+  color: #333;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
